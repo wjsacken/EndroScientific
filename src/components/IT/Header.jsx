@@ -6,11 +6,6 @@ import "react-modal-video/css/modal-video.css";
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
 
-  const openVideo = (event) => {
-    event.preventDefault();
-    setOpen(true);
-  }
-
   return (
     <header className="style-2 overflow-hidden"  data-scroll-index="1">
       <div className="container">
