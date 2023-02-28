@@ -33,7 +33,7 @@ const PageContact5 = () => {
 export const Head = () => {
   return (
     <>
-      <title>Iteck - Contact Us</title>
+      <title>EndroSci - Contact Us</title>
       <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css" />
       <link rel="stylesheet" href="/assets/css/style.css" />
     </>
