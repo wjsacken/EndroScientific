@@ -4,11 +4,11 @@ import navbarScrollEffect from "common/navbarScrollEffect";
 //= Layout
 import MainLayout from 'layouts/Main';
 //= Components
-import TopNav from 'components/Navbars/TopNav';
-import Navbar from 'components/Navbars/SaasNav';
+import Navbar from 'components/Navbars/ITNav';
+import Header from 'components/IT/Header';
 import Form from 'components/Contact/Form';
 import Map from 'components/Contact/Map';
-import Footer from 'components/Saas/Footer';
+import Footer from 'components/IT/Footer';
 
 const PageContact5 = () => {
   const navbarRef = useRef(null);
@@ -19,13 +19,13 @@ const PageContact5 = () => {
 
   return (
     <MainLayout>
-      <TopNav style="5" />
-      <Navbar navbarRef={navbarRef} />
+      <Navbar />
+      <Header />
       <main className="contact-page style-5">
         <Form style="5" />
         <Map />
       </main>
-      <Footer noWave />
+      <Footer />
     </MainLayout>
   )
 }
@@ -33,7 +33,7 @@ const PageContact5 = () => {
 export const Head = () => {
   return (
     <>
-      <title>Iteck - Contact 5</title>
+      <title>Iteck - Contact Us</title>
       <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css" />
       <link rel="stylesheet" href="/assets/css/style.css" />
     </>
