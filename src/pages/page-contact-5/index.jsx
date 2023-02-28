@@ -19,7 +19,7 @@ const PageContact5 = () => {
   return (
     <MainLayout>
       <Navbar />
-      <main className="contact-page style-5">
+      <main className="contact-page style-5 endroTop">
         <Form style="5" />
         <Map />
       </main>
