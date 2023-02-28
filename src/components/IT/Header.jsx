@@ -14,12 +14,10 @@ const Header = () => {
             <div className="content text-center text-light text-capitalize">
               <div className="top_info">
                 <h1 className="text-uppercase">EndroSci</h1>
-                <p className="fw-light text-uppercase">
-                  Best Solutions for <br /> <strong className="fw-bold">Scientific</strong> Refrigeration
-                </p>
+
                 
               </div>
-              <div className="brands mt-200 mb-80">
+              <div className="brands mt-200 mb-80" style="opacity:0">
                 <a href="#" className="logo wow fadeInUp" data-wow-delay="0">
                   <img src="/assets/img/about/about_logos/1.png" alt="" />
                 </a>
@@ -36,6 +34,9 @@ const Header = () => {
                   <img src="/assets/img/about/about_logos/5.png" alt="" />
                 </a>
               </div>
+                    <p className="fw-light text-uppercase">
+                  Best Solutions for <br /> <strong className="fw-bold">Scientific</strong> Refrigeration
+                </p>
               <h4>
                 We can help to maintain and modernize <br /> your IT infrastructure & solve various infrastructure-specific <br /> issues a business may face.
               </h4>
