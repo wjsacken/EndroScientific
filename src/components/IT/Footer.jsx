@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-lg-3">
             <div className="foot_logo">
-              <img src="/assets/img/logo_ll.png" alt="" />
+              <img src="/assets/img/Endro.svg" alt="Endro Scientific" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -49,8 +49,8 @@ const Footer = () => {
         </div>
         <div className="text-center mt-30">
           <div className="small">
-            <span className="op-6">© 2022 Copyrights by </span>
-            <a href="#" className="mx-1">Iteck Co.</a>
+            <span className="op-6">© 2023 Copyrights by </span>
+            <a href="#" className="mx-1">Endro Scientific</a>
             <span className="op-6"> All Rights Reserved.</span>
           </div>
         </div>
