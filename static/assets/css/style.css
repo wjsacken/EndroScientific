@@ -2441,6 +2441,7 @@ header.style-2 {
         font-size: 22px;
         padding-left: 2px; }
     header.style-2 .content .brands {
+      opacity: 0;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
