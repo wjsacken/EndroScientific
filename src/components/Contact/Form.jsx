@@ -47,7 +47,7 @@ const Form = ({ style = "4", rtl }) => {
         style === '5' && (
           <>
             <div className="section-head text-center mb-100 style-5">
-              <h2 className="mb-20">{ rtl ? 'Get In' } <span>{ rtl ? 'Touch' }</span></h2>
+              <h2 className="mb-20">{ rtl ? : 'Get In' } <span>{ rtl ? : 'Touch' }</span></h2>
               <p>{ rtl ? 'We will contact again after receive your request in 24h' }</p>
             </div>
             <div className="text-center mb-100">
@@ -67,48 +67,48 @@ const Form = ({ style = "4", rtl }) => {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="form-group mb-20">
-                      <input type="text" name="name" className="form-control" placeholder={ rtl ? "Name" } onChange={handleFormChange} />
+                      <input type="text" name="name" className="form-control" placeholder={ rtl ? : "Name" } onChange={handleFormChange} />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group mb-20">
-                      <input type="text" name="email" className="form-control" placeholder={ rtl ? "Email Address *" } onChange={handleFormChange} />
+                      <input type="text" name="email" className="form-control" placeholder={ rtl ? : "Email Address *" } onChange={handleFormChange} />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group mb-20">
-                      <input type="text" name="phone" className="form-control" placeholder={ rtl ? "Phone Number (option)" } onChange={handleFormChange} />
+                      <input type="text" name="phone" className="form-control" placeholder={ rtl ? : "Phone Number (option)" } onChange={handleFormChange} />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="form-group mb-20">
-                      <input type="text" name="website" className="form-control" placeholder={ rtl ? "Your Website (option)" } onChange={handleFormChange} />
+                      <input type="text" name="website" className="form-control" placeholder={ rtl ? : "Your Website (option)" } onChange={handleFormChange} />
                     </div>
                   </div>
                   <div className="col-lg-12">
                     <div className="form-group mb-20">
-                      <select className="form-select" defaultValue={ rtl ? 'كيف يمكننا مساعدتك ؟' : "How can we help you?" } name="option" onChange={handleFormChange}>
-                        <option value="how can we help">{ rtl ? 'كيف يمكننا مساعدتك ؟' : 'How can we help you?' }</option>
-                        <option value="option 1">{ rtl ? 'الاختيار الاول' : 'option 1' }</option>
-                        <option value="option 2">{ rtl ? 'الاختيار الثاني' : 'option 2' }</option>
+                      <select className="form-select" defaultValue={ rtl ? : "How can we help you?" } name="option" onChange={handleFormChange}>
+                        <option value="how can we help">{ rtl ?   : 'How can we help you?' }</option>
+                        <option value="option 1">{ rtl ?  : 'option 1' }</option>
+                        <option value="option 2">{ rtl ?   : 'option 2' }</option>
                       </select>
                     </div>
                   </div>
                   <div className="col-lg-12">
                     <div className="form-group">
-                      <textarea rows="10" name="message" className="form-control" placeholder={ rtl ? "How can we help you?" } onChange={handleFormChange}></textarea>
+                      <textarea rows="10" name="message" className="form-control" placeholder={ rtl ? : "How can we help you?" } onChange={handleFormChange}></textarea>
                     </div>
                   </div>
                   <div className="col-lg-12 text-center">
                     <div className="form-check d-inline-flex mt-30 mb-30">
                       <input className="form-check-input me-2 mt-0" type="checkbox" value="" id="flexCheckDefault" />
                       <label className="form-check-label small" htmlFor="flexCheckDefault">
-                        { rtl ? 'By submitting, i’m agreed to the' } <a href="#" className="text-decoration-underline">{ rtl ? 'Terms & Conditons' }</a>
+                        { rtl ? : 'By submitting, i’m agreed to the' } <a href="#" className="text-decoration-underline">{ rtl ? : 'Terms & Conditons' }</a>
                       </label>
                     </div>
                   </div>
                   <div className="col-lg-12 text-center">
-                    <input type="submit" value={ rtl ? 'Send Your Request' } className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold text-light" />
+                    <input type="submit" value={ rtl ? : 'Send Your Request' } className="btn rounded-pill blue5-3Dbutn hover-blue2 sm-butn fw-bold text-light" />
                   </div>
                 </div>
               </form>
