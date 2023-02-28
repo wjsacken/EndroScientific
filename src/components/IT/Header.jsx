@@ -17,7 +17,7 @@ const Header = () => {
 
                 
               </div>
-              <div className="brands mt-200 mb-80" style="opacity:0">
+              <div className="brands mt-200 mb-80" >
                 <a href="#" className="logo wow fadeInUp" data-wow-delay="0">
                   <img src="/assets/img/about/about_logos/1.png" alt="" />
                 </a>
