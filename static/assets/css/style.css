@@ -2404,13 +2404,13 @@ header.style-2 {
     z-index: 5; }
     header.style-2 .content h1 {
       font-size: 123px;
-      letter-spacing: 75px;
+      letter-spacing: 20px;
       display: inline-block;
       padding-left: 75px; }
     header.style-2 .content h4 {
       font-weight: 600; }
     header.style-2 .content p {
-      font-size: 20px; }
+      font-size: 45px; }
       header.style-2 .content p.d-block {
         font-size: 16px; }
     header.style-2 .content .vid-btn {
