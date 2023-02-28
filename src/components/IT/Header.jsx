@@ -18,13 +18,11 @@ const Header = () => {
           <div className="col-lg-10">
             <div className="content text-center text-light text-capitalize">
               <div className="top_info">
-                <h1 className="text-uppercase">Iteck</h1>
+                <h1 className="text-uppercase">EndroSci</h1>
                 <p className="fw-light text-uppercase">
-                  Best Solutions for <br /> <strong className="fw-bold">Big Data & TEchnology</strong> Services
+                  Best Solutions for <br /> <strong className="fw-bold">Scientific</strong> Refrigeration
                 </p>
-                <a href="https://youtu.be/pGbIOC83-So?t=21" className="vid-btn" onClick={openVideo}>
-                  <i className="bi bi-play-fill wow heartBeat infinite slower"></i>
-                </a>
+                
               </div>
               <div className="brands mt-200 mb-80">
                 <a href="#" className="logo wow fadeInUp" data-wow-delay="0">
