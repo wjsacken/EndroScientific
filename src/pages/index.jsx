@@ -1,59 +1,43 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 //= Layout
-import PreviewLayout from 'layouts/Preview';
+import MainLayout from 'layouts/Main';
 //= Components
-import Header from 'components/Preview/Header';
-import Features from 'components/Preview/Features';
-import Demos from 'components/Preview/Demos';
-import InnerPages from 'components/Preview/InnerPages';
-import BuyNow from 'components/Preview/BuyNow';
-import Portfolio from 'components/Preview/Portfolio';
-import Codei from 'components/Preview/Codei';
-import BestFeatures from 'components/Preview/BestFeatures';
-import Responsive from 'components/Preview/Responsive';
-import AllFeatures from 'components/Preview/AllFeatures';
-import Testimonials from 'components/Preview/Testimonials';
-import CallToAction from 'components/Preview/CallToAction';
-//= Scripts
-import { fixPreviewStylesheetOrder } from 'common/fixStylesheetsOrder';
+import Navbar from 'components/Navbars/ITNav';
+import Header from 'components/IT/Header';
+import Services from 'components/IT/Services';
+import ChooseUs from 'components/IT/ChooseUs';
+import Reviews from 'components/IT/Reviews';
+import Pricing from 'components/IT/Pricing';
+import Blog from 'components/IT/Blog';
+import Contact from 'components/IT/Contact';
+import Footer from 'components/IT/Footer';
 
-const LandingPreview = () => {
-  useEffect(() => {
-    document.body.classList.add('index-main');
-    return () => document.body.classList.remove('index-main');
-  }, []);
-
-  useEffect(() => {
-    fixPreviewStylesheetOrder();
-  }, []);
-
+const HomeITSolutions = () => {
   return (
-    <PreviewLayout>
+    <MainLayout scrollTopText>
+      <Navbar />
       <Header />
-      <Features />
-      <Demos />
-      <InnerPages />
-      <BuyNow />
-      <Portfolio />
-      <Codei />
-      <BestFeatures />
-      <Responsive />
-      <AllFeatures />
-      <Testimonials />
-      <CallToAction />
-    </PreviewLayout>
+      <main>
+        <Services />
+        <ChooseUs />
+        <Reviews />
+        <Pricing />
+        <Blog />
+        <Contact />
+      </main>
+      <Footer />
+    </MainLayout>
   )
 }
 
 export const Head = () => {
   return (
     <>
-      <title>Iteck - Preview</title>
+      <title>Endro Scientific</title>
       <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css" />
       <link rel="stylesheet" href="/assets/css/style.css" />
-      <link rel="stylesheet" href="/landing-preview/css/preview-style.css" />
     </>
   )
 }
 
-export default LandingPreview;
+export default HomeITSolutions;
