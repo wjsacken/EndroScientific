@@ -1,0 +1,33 @@
+{
+  "name": "iteck-gatsby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "iteck-gatsby",
+  "author": "Hassan Ali",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "gatsby": "^4.24.1",
+    "gatsby-plugin-resolve-src": "^2.1.0",
+    "lightgallery": "^2.5.0",
+    "rc-slider": "^10.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-modal-video": "^1.2.9",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "gatsby-plugin-eslint": "^4.0.2"
+  }
+}

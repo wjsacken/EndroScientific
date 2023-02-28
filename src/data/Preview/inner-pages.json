@@ -1,0 +1,182 @@
+[
+  {
+    "link": "/page-about-5",
+    "img": "/landing-preview/img/inner_pages/about.png",
+    "title": "Inner Page",
+    "type": "about us"
+  },
+  {
+    "link": "/page-about-2",
+    "img": "/landing-preview/img/inner_pages/about2.png",
+    "title": "Inner Page",
+    "type": "About Us 2"
+  },
+  {
+    "link": "/page-about-app",
+    "img": "/landing-preview/img/inner_pages/about_app.png",
+    "title": "Inner Page",
+    "type": "About Us app"
+  },
+  {
+    "link": "/page-blog-app-left-sidebar",
+    "img": "/landing-preview/img/inner_pages/blog_app_left_sidebar.png",
+    "title": "Inner Page",
+    "type": "blog app left sidebar"
+  },
+  {
+    "link": "/page-blog-app-wide",
+    "img": "/landing-preview/img/inner_pages/blog_app_wide.png",
+    "title": "Inner Page",
+    "type": "blog app wide"
+  },
+  {
+    "link": "/page-blog-app",
+    "img": "/landing-preview/img/inner_pages/blog_app_right_sidebar.png",
+    "title": "Inner Page",
+    "type": "Blog app right sidebar"
+  },
+  {
+    "link": "/page-blog-app-left-sidebar",
+    "img": "/landing-preview/img/inner_pages/blog_left_sidebar.png",
+    "title": "Inner Page",
+    "type": "blog left sidebar"
+  },
+  {
+    "link": "/page-blog-5-wide",
+    "img": "/landing-preview/img/inner_pages/blog_wide.png",
+    "title": "Inner Page",
+    "type": "blog wide"
+  },
+  {
+    "link": "/page-blog-5",
+    "img": "/landing-preview/img/inner_pages/blog_right_sidebar.png",
+    "title": "Inner Page",
+    "type": "blog right sidebar"
+  },
+  {
+    "link": "/page-single-post-5-left-sidebar",
+    "img": "/landing-preview/img/inner_pages/single_post_left_sidebar.png",
+    "title": "Inner Page",
+    "type": "single post left sidebar"
+  },
+  {
+    "link": "/page-single-post-5-wide",
+    "img": "/landing-preview/img/inner_pages/single_post_wide.png",
+    "title": "Inner Page",
+    "type": "single post wide"
+  },
+  {
+    "link": "/page-single-post-5",
+    "img": "/landing-preview/img/inner_pages/single_post_right_sidebar.png",
+    "title": "Inner Page",
+    "type": "single post right sidebar"
+  },
+  {
+    "link": "/page-single-post-app-left-sidebar",
+    "img": "/landing-preview/img/inner_pages/single_post_app_left_sidebar.png",
+    "title": "Inner Page",
+    "type": "single post app left Sidebar"
+  },
+  {
+    "link": "/page-single-post-app-wide",
+    "img": "/landing-preview/img/inner_pages/single_post_app_wide.png",
+    "title": "Inner Page",
+    "type": "single post app wide"
+  },
+  {
+    "link": "/page-single-post-app",
+    "img": "/landing-preview/img/inner_pages/single_post_app_right_sidebar.png",
+    "title": "Inner Page",
+    "type": "single post app right Sidebar"
+  },
+  {
+    "link": "/page-careers-5",
+    "img": "/landing-preview/img/inner_pages/career.png",
+    "title": "Inner Page",
+    "type": "careers"
+  },
+  {
+    "link": "/page-career-details",
+    "img": "/landing-preview/img/inner_pages/career_details.png",
+    "title": "Inner Page",
+    "type": "career details"
+  },
+  {
+    "link": "/page-contact-5",
+    "img": "/landing-preview/img/inner_pages/contact.png",
+    "title": "Inner Page",
+    "type": "contact"
+  },
+  {
+    "link": "/page-contact-app",
+    "img": "/landing-preview/img/inner_pages/contact_app.png",
+    "title": "Inner Page",
+    "type": "contact app"
+  },
+  {
+    "link": "/page-faq-5",
+    "img": "/landing-preview/img/inner_pages/faq.png",
+    "title": "Inner Page",
+    "type": "faq"
+  },
+  {
+    "link": "/page-portfolio-5",
+    "img": "/landing-preview/img/inner_pages/projects.png",
+    "title": "Inner Page",
+    "type": "portfolio"
+  },
+  {
+    "link": "/page-portfolio-app",
+    "img": "/landing-preview/img/inner_pages/projects_app.png",
+    "title": "Inner Page",
+    "type": "portfolio app"
+  },
+  {
+    "link": "/page-services-5",
+    "img": "/landing-preview/img/inner_pages/services.png",
+    "title": "Inner Page",
+    "type": "services"
+  },
+  {
+    "link": "/page-services-app",
+    "img": "/landing-preview/img/inner_pages/services_app.png",
+    "title": "Inner Page",
+    "type": "services app"
+  },
+  {
+    "link": "/page-services-details-5",
+    "img": "/landing-preview/img/inner_pages/services_details.png",
+    "title": "Inner Page",
+    "type": "services details"
+  },
+  {
+    "link": "/page-single-project-5",
+    "img": "/landing-preview/img/inner_pages/single_project.png",
+    "title": "Inner Page",
+    "type": "single project"
+  },
+  {
+    "link": "/page-single-project-app",
+    "img": "/landing-preview/img/inner_pages/single_project_app.png",
+    "title": "Inner Page",
+    "type": "single project app"
+  },
+  {
+    "link": "/page-sign-in",
+    "img": "/landing-preview/img/inner_pages/login.png",
+    "title": "Inner Page",
+    "type": "sign in"
+  },
+  {
+    "link": "/page-comming-soon-5",
+    "img": "/landing-preview/img/inner_pages/comming_soon.png",
+    "title": "Inner Page",
+    "type": "comming soon"
+  },
+  {
+    "link": "/page-404",
+    "img": "/landing-preview/img/inner_pages/404.png",
+    "title": "Inner Page",
+    "type": "404"
+  }
+]
