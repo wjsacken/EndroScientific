@@ -5,8 +5,7 @@ import navbarScrollEffect from "common/navbarScrollEffect";
 import MainLayout from 'layouts/Main';
 //= Components
 import Navbar from 'components/Navbars/ITNav';
-import Header from 'components/IT/Header';
-import Form from 'components/Contact/Form';
+import Form from 'components/IT/Form';
 import Map from 'components/Contact/Map';
 import Footer from 'components/IT/Footer';
 
@@ -20,7 +19,6 @@ const PageContact5 = () => {
   return (
     <MainLayout>
       <Navbar />
-      <Header />
       <main className="contact-page style-5">
         <Form style="5" />
         <Map />
