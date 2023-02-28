@@ -5,7 +5,7 @@ import navbarScrollEffect from "common/navbarScrollEffect";
 import MainLayout from 'layouts/Main';
 //= Components
 import Navbar from 'components/Navbars/ITNav';
-import Form from 'components/IT/Form';
+import Form from 'components/Contact/Form';
 import Map from 'components/Contact/Map';
 import Footer from 'components/IT/Footer';
 
