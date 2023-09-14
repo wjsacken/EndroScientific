@@ -12,29 +12,25 @@ const Header = () => {
   }
 
   return (
-    <header className="section-padding style-1" data-scroll-index="0">
+    <header className="section-padding style-1" data-scroll-index="1">
       <div className="container">
         <div className="content">
           <div className="row">
             <div className="col-lg-6">
               <div className="info">
                 <div className="section-head mb-60">
-                  <h6 className="color-main text-uppercase">Iteck agency</h6>
+                  <h6 className="color-main text-uppercase">Blood & Plasma</h6>
                   <h2>
-                    Technology & IT <span className="fw-normal">Solutions</span>
+                    Refrigeration <span className="fw-normal">Solutions</span>
                   </h2>
                 </div>
                 <div className="text">
-                  We transform businesses of most major sectors with powerful and adaptable digital solutions that satisfy the needs of today.
+                Endro Scientific provides efficient, EnergyStar-rated blood bank refrigerators and freezers equipped with robust interior drawers to meet the most stringent requirements of blood banks. Each unit features durable, adjustable compartments with stainless steel and plexiglass drawers, and Endro Scientific's groundbreaking Monoblock cooling technology. In case of a system malfunction, the Endro Scientific Monoblock can be swiftly replaced in 20 minutes or less. This capability is of paramount importance when safeguarding highly valuable blood bank products.
                 </div>
                 <div className="bttns mt-5">
                   <Link to="/page-services-5" className="btn btn-dark">
                     <span>our services</span>
                   </Link>
-                  <a href="https://youtu.be/pGbIOC83-So?t=21" className="vid-btn" onClick={openVideo}>
-                    <i className="bi bi-play wow heartBeat infinite slow"></i>
-                    <span>Iteck’s <br /> Showreels</span>
-                  </a>
                 </div>
               </div>
             </div>
