@@ -28,7 +28,11 @@ html, body {
   box-shadow: 0 0 0 2px var(--clr-style) !important;
 }
 
-
+.product-image {
+  width: 100%;
+  height: 245px;
+  object-fit: contain; /* This will make the image fit within the given width and height, and it will be fully visible */
+}
 .related-products-slider .swiper-container,
 .slider-3items .swiper-container,
 .screenshots-slider .swiper-container {

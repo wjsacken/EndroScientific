@@ -7,7 +7,7 @@ import MainLayout from 'layouts/Main';
 import Navbar from 'components/Navbars/ITNav';
 import Details from 'components/Style2/bloodPlasma/Details';
 import Contact from 'components/Style2/bloodPlasma/Contact';
-import Footer from 'components/Saas/Footer';
+import Footer from 'components/IT/Footer';
 
 const PageServiceDetails = () => {
   const navbarRef = useRef(null);

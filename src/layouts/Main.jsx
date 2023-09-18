@@ -2,7 +2,6 @@
 import React from 'react';
 import { Script } from "gatsby";
 //= Components
-import PreLoader from "components/PreLoader";
 import ScrollToTop from "components/ScrollToTop";
 
 //= Global CSS
@@ -12,7 +11,6 @@ import "styles/preloader.css";
 const MainLayout = ({ children, scrollTopText }) => {
   return (
     <>
-      <PreLoader />
       { children }
       <ScrollToTop topText={scrollTopText} />
 

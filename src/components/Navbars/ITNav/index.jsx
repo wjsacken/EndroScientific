@@ -27,7 +27,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark style-2 position-absolute w-100 p-0" ref={navbarRef}>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-darkBlue style-2 position-absolute w-100 p-0" ref={navbarRef}>
       <div className="container">
         <a className="navbar-brand" href="#">
           <img src="/assets/img/Endro.svg" alt="Endro Scientific" />
@@ -40,25 +40,25 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase">
             <li className="nav-item dropdown" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
-              <a className="nav-link" href="#" id="navbarDropdown1" role="button" aria-expanded="false">
+              <a className="nav-link" href="/" id="navbarDropdown1" role="button" aria-expanded="false">
                 Home
               </a>
             </li>
             <li className="nav-item dropdown" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/products" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Products
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <li><Link to="/" className="dropdown-item">Blood & Plasma</Link></li>
-                <li><Link to="/home-it-solutions2" className="dropdown-item"> Chromatography Refrigerators</Link></li>
-                <li><Link to="/home-data-analysis" className="dropdown-item"> Combination Units</Link></li>
-                <li><Link to="/home-app-landing" className="dropdown-item"> High Performance</Link></li>
-                <li><Link to="/home-saas-technology" className="dropdown-item"> Low Temperature Freezers -45</Link></li>
-                <li><Link to="/home-marketing-startup" className="dropdown-item"> Ultra Low Freezers -86</Link></li>
-                <li><Link to="/home-it-solutions" className="dropdown-item"> Undercounter Refrigerators & Freezers</Link></li>
-                <li><Link to="/home-software-company" className="dropdown-item"> Upright Refrigerators & Freezers</Link></li>
-                <li><Link to="/home-digital-agency" className="dropdown-item"> Accessories</Link></li>
-                <li><Link to="/home-modren-shop" className="dropdown-item"> Battery Backup</Link></li>
+                <li><Link to="/category/Blood_and_Plasma/" className="dropdown-item">Blood & Plasma</Link></li>
+                <li><Link to="/category/Chromatography/" className="dropdown-item"> Chromatography Refrigerators</Link></li>
+                <li><Link to="/category/Combination_Units/" className="dropdown-item"> Combination Units</Link></li>
+                <li><Link to="/category/High_Performance/" className="dropdown-item"> High Performance</Link></li>
+                <li><Link to="/category/Low-Temperature_-45°C/" className="dropdown-item"> Low Temperature Freezers -45</Link></li>
+                <li><Link to="/category/Ultra-Low_-50°C_to_-86°C/" className="dropdown-item"> Ultra Low Freezers -86</Link></li>
+                <li><Link to="/category/Undercounter/" className="dropdown-item"> Undercounter Refrigerators & Freezers</Link></li>
+                <li><Link to="/category/Upright/" className="dropdown-item"> Upright Refrigerators & Freezers</Link></li>
+                <li><Link to="/category/Accessories/" className="dropdown-item"> Accessories</Link></li>
+                <li><Link to="/category/Battery_Backup/" className="dropdown-item"> Battery Backup</Link></li>
               </ul>
             </li>
             <li className="nav-item">

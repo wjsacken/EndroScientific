@@ -4,24 +4,22 @@ import navbarScrollEffect from "common/navbarScrollEffect";
 //= Layout
 import MainLayout from 'layouts/Main';
 //= Components
-import TopNav from 'components/Navbars/TopNav';
-import Navbar from 'components/Navbars/AppNav';
+import Navbar from 'components/Navbars/ITNav';
 import Shop from 'components/Shop';
-import Footer from 'components/App/Footer';
+import Footer from 'components/IT/Footer';
 
-const PageShopApp = () => {
+const PageShop5 = () => {
   const navbarRef = useRef(null);
 
   useEffect(() => {
-    navbarScrollEffect(navbarRef.current);
+    navbarScrollEffect(navbarRef.current, true);
   }, [navbarRef]);
 
   return (
     <MainLayout>
-      <TopNav style="4" />
-      <Navbar navbarRef={navbarRef} />
-      <main className="shop-page style-5 style-grad">
-        <Shop style="4" />
+      <Navbar className="dark"/>
+      <main className="shop-page style-5">
+        <Shop style="3" />
       </main>
       <Footer noWave />
     </MainLayout>
@@ -31,11 +29,11 @@ const PageShopApp = () => {
 export const Head = () => {
   return (
     <>
-      <title>Iteck - Shop App</title>
+      <title>Products - Endrosci</title>
       <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css" />
       <link rel="stylesheet" href="/assets/css/style.css" />
     </>
   )
 }
 
-export default PageShopApp;
+export default PageShop5;
