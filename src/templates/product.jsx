@@ -13,7 +13,6 @@ const PageProductApp = ({ data }) => {
   const product = data.shopifyProduct;
   const productName = product.title;
   const productImage = product.featuredImage.src;
-  const productSpecs = product.metafield.value;
   const mainInfo = {
     category: product.productType,
     title: product.title,
