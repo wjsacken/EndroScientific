@@ -1,11 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react'; 
+import React, { useEffect, useRef } from 'react'; 
 import { graphql } from "gatsby"; 
 import navbarScrollEffect from "common/navbarScrollEffect"; 
 import MainLayout from 'layouts/Main'; 
 import Navbar from 'components/Navbars/ITNav'; 
 import Footer from 'components/IT/Footer'; 
 import SwiperCore, { FreeMode, Thumbs } from 'swiper';
-import FadeInOut from 'components/FadeInOut';
 
 SwiperCore.use([FreeMode, Thumbs]);
 
@@ -17,7 +16,7 @@ const PageProductApp = ({ data }) => {
     category: product.productType,
     title: product.title,
     price: product.priceRangeV2.maxVariantPrice.amount,
-    description: product.description,
+    description: product.description.replace(/K2|K2 Scientific|K2 Scientific's/g, 'Endro'),
     specs: product.metafield && product.metafield.value ? product.metafield.value : null,
     features: [],
   };
@@ -68,7 +67,7 @@ const PageProductApp = ({ data }) => {
                       ${mainInfo.price.toLocaleString()}
                     </div>
                     <div className="info-text">
-                      { mainInfo.description }
+                      {mainInfo.description.replace(/K2|K2 Scientific/g, 'Endro')}
                     </div>
                     <ul className="info-list">
                       { 
