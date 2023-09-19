@@ -5,8 +5,7 @@ import navbarScrollEffect from "common/navbarScrollEffect";
 import MainLayout from 'layouts/Main';
 //= Components
 import AbsoluteContainer from 'components/Navbars/AbsoluteContainer';
-import TopNav from 'components/Navbars/TopNav';
-import Navbar from 'components/Navbars/SaasNav';
+import Navbar from 'components/Navbars/ITNav';
 import NotFound from 'components/404';;
 
 const Page404 = () => {
@@ -19,7 +18,6 @@ const Page404 = () => {
   return (
     <MainLayout>
       <AbsoluteContainer>
-        <TopNav style="5" />
         <Navbar navbarRef={navbarRef} />
       </AbsoluteContainer>
       <main className="erorr-404-page style-5">
