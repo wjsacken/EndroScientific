@@ -23,6 +23,21 @@ html, body {
   background-color: var(--clr-style) !important;
   opacity: 1 !important;
 }
+.productImage{
+  max-height: 500px;
+  position: relative;
+  left: 20%;
+}
+.shop_attributes{width: 100%}
+.shop_attributes tr, .shop_attributes th {border-width: 1px; color: #000}
+
+.shop_attributes tr:nth-child(even) {background: #f8f8f8}
+.shop_attributes tr:nth-child(odd) {background: #d0e4f2}
+
+.sub_title_section th {
+  padding: 5px 0px;
+  font-size: 19px;
+}
 
 .rc-slider-handle-dragging {
   box-shadow: 0 0 0 2px var(--clr-style) !important;

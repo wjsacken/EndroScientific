@@ -49,12 +49,7 @@ const ProductDetails = ({ style = "4", rtl }) => {
             <div className="tab-pane show active" id="pills-description" role="tabpanel" aria-labelledby="pills-description-tab">
               <div className="content-info text-center pb-0">
                 <div className="text mb-30">
-                  {
-                    rtl ?
-                    'عند موافقه العميل المبدئيه على التصميم يتم ازالة هذا النص من التصميم ويتم وضع النصوص النهائية المطلوبة للتصميم ويقول البعض ان وضع النصوص التجريبية بالتصميم قد تشغل المشاهد عن وضع الكثير من الملاحظات او الانتقادات للتصميم الاساسي.'
-                    :
-                    'Nulla velit turpis, tincidunt eget elit vitae, congue sodales metus. Sed sed neque luctus, sollicitudin sem sed, consectetur libero. Nunc mollis turpis velit, vitae laoreet sapien vehicula nec. Curabitur blandit ac libero eu dictum. Nullam vehicula hendrerit nisl eu laoreet. Cras non velit est. Vivamus tincidunt lacus est, at auctor elit finibus et. Maecenas a consequat metus. Aliquam ac nisl nec est mollis faucibus eget vitae eros. Duis bibendum vestibulum felis id mattis.'
-                  }
+                  { specs }
                 </div>
                 <div className="text">
                   {

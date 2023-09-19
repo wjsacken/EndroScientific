@@ -73,7 +73,9 @@ const CategoryTemplate = ({ data }) => {
                                       </h5>
                                     </div>
                                     <div className="price">
-                                      <span className="price-sale">${item.priceRange.maxVariantPrice.amount}</span>
+                                      <span className="price-sale">
+                                        ${item.priceRangeV2.maxVariantPrice.amount.toLocaleString()}
+                                      </span>
                                     </div>
                                   </div>
                                 </div>
@@ -104,7 +106,7 @@ export const query = graphql`
       products {
         title
         handle
-        priceRange {
+        priceRangeV2 {
           maxVariantPrice {
             amount
             currencyCode

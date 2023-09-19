@@ -9,6 +9,8 @@ exports.createPages = async ({ graphql, actions }) => {
         edges {
           node {
             title
+            handle
+            id
           }
         }
       }
@@ -24,17 +26,18 @@ exports.createPages = async ({ graphql, actions }) => {
   `);
 
 productResult.data.allShopifyProduct.edges.forEach(({ node }) => {
-    let pathTitle = node.title.replace(/\s+/g, '_'); // Replaces spaces with underscores
-    pathTitle = pathTitle.replace(/"/g, ''); // Removes double quotes
+  let pathTitle = node.handle.replace(/\s+/g, '-'); // Replaces spaces with underscores
+  pathTitle = pathTitle.replace(/[".,]/g, ''); // Removes double quotes, periods, and commas
 
-    createPage({
-      path: `/product/${pathTitle}`,
-      component: path.resolve(`./src/templates/product.js`),
-      context: {
-        title: node.title,
-      },
-    });
+  createPage({
+    path: `/product/${pathTitle}`,
+    component: path.resolve(`./src/templates/product.jsx`),
+    context: {
+      title: node.title,
+    },
   });
+});
+
 
   productResult.data.allShopifyCollection.edges.forEach(({ node }) => {
     const pathTitle = node.title.replace(/\s+/g, '_'); // Replaces spaces with underscores
