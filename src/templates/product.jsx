@@ -18,7 +18,7 @@ const PageProductApp = ({ data }) => {
     title: product.title,
     price: product.priceRangeV2.maxVariantPrice.amount,
     description: product.description,
-    specs: product.metafield.value,
+    specs: product.metafield && product.metafield.value ? product.metafield.value : null,
     features: [],
   };
 
