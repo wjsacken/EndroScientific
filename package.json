@@ -16,22 +16,22 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "gatsby": "^4.24.1",
+    "gatsby": "5.12.4",
     "gatsby-plugin-image": "^3.12.0",
     "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-source-shopify": "^8.12.0",
-    "gatsby-source-shopify-storefront": "^1.0.0",
-    "lightgallery": "^2.5.0",
-    "rc-slider": "^10.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-modal-video": "^1.2.9",
-    "swiper": "^8.3.2"
+    "lightgallery": "^2.6.0",
+    "rc-slider": "^10.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal-video": "^2.0.1",
+    "swiper": "^8.4.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.0.0",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-webpack-plugin": "^3.2.0",
-    "gatsby-plugin-eslint": "^4.0.2"
+    "gatsby-plugin-eslint": "^4.0.3"
   }
 }
