@@ -12,7 +12,7 @@ SwiperCore.use([FreeMode, Thumbs]);
 const PageProductApp = ({ data }) => {
   const product = data.shopifyProduct;
   const productName = product.title;
-  const productImage = product.featuredImage.src;
+  const productImage = product.featuredImage && product.featuredImage.src ? product.featuredImage.src : null;
   const mainInfo = {
     category: product.productType,
     title: product.title,
