@@ -79,7 +79,7 @@ TABLE OF CONTENTS:-
   --color-blue6: #6640f4;
   --color-blue7: #8169f1;
   --color-lightBlue:#15f1ff;
-  --color-darkBlue:#010049;
+  --color-darkBlue:#1a4066;
   --color-darkBlue2:#1f227d;
   --color-orange1:#ff7a41;
   --color-gray:#eef4f8;
@@ -1994,7 +1994,7 @@ small.text {
       justify-content: center; }
 
 .navbar.style-2.nav-scroll {
-  background-color: #010049 !important; }
+  background-color: #1a4066 !important; }
 
 .navbar.style-2 .navbar-brand img {
   width: 155px;

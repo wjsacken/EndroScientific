@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-darkBlue style-2 position-absolute w-100 p-0" ref={navbarRef}>
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="/assets/img/Endro.svg" alt="Endro Scientific" />
+          <img src="/assets/img/Endro2.svg" alt="Endro Scientific" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

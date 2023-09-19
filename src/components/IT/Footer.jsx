@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-lg-3">
             <div className="foot_logo">
-              <img src="/assets/img/Endro.svg" alt="Endro Scientific" />
+              <img src="/assets/img/Endro2.svg" alt="Endro Scientific" />
             </div>
           </div>
           <div className="col-lg-6">

@@ -50,7 +50,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <img src="/assets/img/header/header_2.png" alt="" className="head_shape2 wave" />
+      <img src="/assets/img/header/header_2.png" alt="Endro Scientific iceberg" className="head_shape2 wave" />
       {
         typeof window !== "undefined" && 
           (
