@@ -26,7 +26,7 @@ const ProductImages = ({ productImages }) => {
           }}
         >
           {
-            productImages.map((image, index) => (
+            productImages && productImages.map((image, index) => (
               <SwiperSlide key={index}>
                 <div className="img">
                   <img src={image} alt="" />
@@ -46,14 +46,14 @@ const ProductImages = ({ productImages }) => {
               }}
             >
               {
-                productImages.map((image, index) => (
-                  <SwiperSlide key={index}>
-                    <div className="img">
-                      <img src={image} alt="" />
-                    </div>
-                  </SwiperSlide>
-                ))
-              }
+                  productImages && productImages.map((image, index) => (
+                    <SwiperSlide key={index}>
+                      <div className="img">
+                        <img src={image} alt="" />
+                      </div>
+                    </SwiperSlide>
+                  ))
+                }
             </Swiper>
           )
         }
@@ -62,4 +62,4 @@ const ProductImages = ({ productImages }) => {
   )
 }
 
-export default ProductImages
+export default ProductImages;
