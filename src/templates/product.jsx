@@ -42,10 +42,6 @@ const PageProductApp = ({ data }) => {
 
   const [galleryThumbs, setGalleryThumbs] = useState(null);
 
-  console.log("product.media:", product.media);
-  console.log("product.media.preview:", product.media && product.media.preview);
-  console.log("product.media.preview.image:", product.media && product.media.preview && product.media.preview.image);
-
   return (
     <MainLayout>
       <Head title={productName} />
