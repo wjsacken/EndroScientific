@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-darkBlue style-2 position-absolute w-100 p-0" ref={navbarRef}>
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="https://endrosci.com">
           <img src="/assets/img/Endro2.svg" alt="Endro Scientific" />
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,16 +49,17 @@ const Navbar = () => {
                 Products
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <li><Link to="/category/Blood_and_Plasma/" className="dropdown-item">Blood & Plasma</Link></li>
-                <li><Link to="/category/Chromatography/" className="dropdown-item"> Chromatography Refrigerators</Link></li>
-                <li><Link to="/category/Combination_Units/" className="dropdown-item"> Combination Units</Link></li>
-                <li><Link to="/category/High_Performance/" className="dropdown-item"> High Performance</Link></li>
-                <li><Link to="/category/Low-Temperature_-45°C/" className="dropdown-item"> Low Temperature Freezers -45</Link></li>
-                <li><Link to="/category/Ultra-Low_-50°C_to_-86°C/" className="dropdown-item"> Ultra Low Freezers -86</Link></li>
-                <li><Link to="/category/Undercounter/" className="dropdown-item"> Undercounter Refrigerators & Freezers</Link></li>
-                <li><Link to="/category/Upright/" className="dropdown-item"> Upright Refrigerators & Freezers</Link></li>
-                <li><Link to="/category/Accessories/" className="dropdown-item"> Accessories</Link></li>
-                <li><Link to="/category/Battery_Backup/" className="dropdown-item"> Battery Backup</Link></li>
+                <li><Link to="/category/blood-bank/" className="dropdown-item">Blood & Plasma</Link></li>
+                <li><Link to="/category/chromatography/" className="dropdown-item"> Chromatography Refrigerators</Link></li>
+                <li><Link to="/category/combination-units/" className="dropdown-item"> Combination Units</Link></li>
+                <li><Link to="/category/high-performance/" className="dropdown-item"> High Performance</Link></li>
+                <li><Link to="/category/low-temperature/" className="dropdown-item"> Low Temperature Freezers -45</Link></li>
+                <li><Link to="/category/ultra-low/" className="dropdown-item"> Ultra Low Freezers -86</Link></li>
+                <li><Link to="/category/walk-in-chillers-freezers/" className="dropdown-item"> Walk-In Chillers/Freezers</Link></li>
+                <li><Link to="/category/under-counter/" className="dropdown-item"> Undercounter Refrigerators & Freezers</Link></li>
+                <li><Link to="/category/upright/" className="dropdown-item"> Upright Refrigerators & Freezers</Link></li>
+                <li><Link to="/category/accessories/" className="dropdown-item"> Accessories</Link></li>
+                <li><Link to="/category/battery-backup/" className="dropdown-item"> Battery Backup</Link></li>
               </ul>
             </li>
             <li className="nav-item">

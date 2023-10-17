@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 const Footer = () => {
   return (
@@ -11,47 +10,19 @@ const Footer = () => {
               <img src="/assets/img/Endro2.svg" alt="Endro Scientific" />
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-3">
             <div className="foot_links text-uppercase text-center small">
-              <Link to="/home-it-solutions" className="mx-4">
-                Home
-              </Link>
-              <Link to="/page-about-5" className="mx-4">
-                about
-              </Link>
-              <Link to="/page-services-5" className="mx-4">
-                services
-              </Link>
-              <Link to="/page-portfolio-5" className="mx-4">
-                portfolio
-              </Link>
-              <Link to="/page-blog-5" className="mx-4">
-                news
-              </Link>
+              
             </div>
           </div>
-          <div className="col-lg-3 text-end">
+          <div className="col-lg-6 text-end">
             <div className="socail-icons">
-              <a href="#" className="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#" className="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" className="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-              <a href="#" className="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center">
-                <i className="fab fa-github"></i>
-              </a>
+            <div className="small">
+              <span className="op-6">© 2023 Copyrights by </span>
+              <a href="#" className="mx-1">Endro Scientific</a>
+              <span className="op-6"> All Rights Reserved.</span>
             </div>
-          </div>
-        </div>
-        <div className="text-center mt-30">
-          <div className="small">
-            <span className="op-6">© 2023 Copyrights by </span>
-            <a href="#" className="mx-1">Endro Scientific</a>
-            <span className="op-6"> All Rights Reserved.</span>
+            </div>
           </div>
         </div>
       </div>

@@ -47,12 +47,11 @@ const Form = ({ style = "4", rtl }) => {
         style === '5' && (
           <>
             <div className="section-head text-center mb-100 style-5">
-              <h2 className="mb-20">{ rtl ? 'يسعدنا' : 'Get In' } <span>{ rtl ? 'تواصلك' : 'Touch' }</span> { rtl && 'معنا' }</h2>
-              <p>{ rtl ? 'سنتواصل معك مرة أخرى بعد استلام طلبك خلال 24 ساعة' : 'We will contact again after receive your request in 24h' }</p>
+              <h2 className="mb-20">Get In <span>Touch</span></h2>
             </div>
             <div className="text-center mb-100">
-              <h2 className="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5">{ contactInfoData.phone }</h2>
-              <h4 className="fw-normal mb-20 color-000">{ contactInfoData.email }</h4>
+              <h2 className="ltspc-20 text-uppercase fs-1 lh-1 mb-50 mt-30 color-blue5"><a href="tel:704-797-1469">{ contactInfoData.phone }</a></h2>
+              <h4 className="fw-normal mb-20 color-000"><a href="mailto:brannon@endrosci.com">{ contactInfoData.email }</a></h4>
               <h4 className="fw-normal mb-10 color-000">{ contactInfoData.address }</h4>
             </div>
           </>
@@ -114,8 +113,7 @@ const Form = ({ style = "4", rtl }) => {
               </form>
             </div>
           </div>
-          <img src="/assets/img/icons/contact_a.png" alt="" className="contact_a" />
-          <img src="/assets/img/icons/contact_message.png" alt="" className="contact_message" />
+
         </div>
       </div>
     </section>

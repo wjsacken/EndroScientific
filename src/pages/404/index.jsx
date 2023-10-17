@@ -4,10 +4,10 @@ import navbarScrollEffect from "common/navbarScrollEffect";
 //= Layout
 import MainLayout from 'layouts/Main';
 //= Components
-import AbsoluteContainer from 'components/Navbars/AbsoluteContainer';
-import TopNav from 'components/Navbars/TopNav';
-import Navbar from 'components/Navbars/SaasNav';
-import NotFound from 'components/404';;
+import Navbar from 'components/Navbars/ITNav';
+import NotFound from 'components/404';
+import Footer from 'components/IT/Footer';
+
 
 const Page404 = () => {
   const navbarRef = useRef(null);
@@ -18,13 +18,11 @@ const Page404 = () => {
 
   return (
     <MainLayout>
-      <AbsoluteContainer>
-        <TopNav style="5" />
         <Navbar navbarRef={navbarRef} />
-      </AbsoluteContainer>
       <main className="erorr-404-page style-5">
         <NotFound />
       </main>
+      <Footer noWave />
     </MainLayout>
   )
 }
@@ -32,7 +30,7 @@ const Page404 = () => {
 export const Head = () => {
   return (
     <>
-      <title>Iteck - 404</title>
+      <title>EndroSci - 404</title>
       <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css" />
       <link rel="stylesheet" href="/assets/css/style.css" />
     </>

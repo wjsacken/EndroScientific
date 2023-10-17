@@ -436,6 +436,8 @@ small.text {
     right: -60px; }
   .slider-style-6 .swiper-button-prev, .slider-style-6 .swiper-container-rtl .swiper-button-next {
     left: -60px; }
+.text-DB{
+  color: var(--color-darkBlue); }
 
 /* --------------- dropdown --------------- */
 .dropdown-toggle::after {
@@ -4053,10 +4055,11 @@ header.style-9 {
     animation-delay: 1s;
     z-index: 3; }
 
-.choose-us.style-2 .img img {
-  -webkit-animation: rotate-center 100s linear infinite both;
-  animation: rotate-center 100s linear infinite both; }
-
+.choose-us.style-2 .img img {}
+.chooseBtn {
+  width: 100%;
+  border-color: var(--color-darkBlue) !important;
+}
 .choose-us.style-2 .info h5 {
   font-weight: 600; }
 
