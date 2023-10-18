@@ -438,7 +438,12 @@ small.text {
     left: -60px; }
 .text-DB{
   color: var(--color-darkBlue); }
-
+.checkbox input {margin-right:10px; }
+.formLabel{
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
 /* --------------- dropdown --------------- */
 .dropdown-toggle::after {
   position: relative;

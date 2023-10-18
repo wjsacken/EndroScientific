@@ -63,17 +63,15 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <Link to="/page-contact-5" className="nav-link">
+              <Link to="/contact-us" className="nav-link">
                 Contact
               </Link>
             </li>
           </ul>
           <div className="nav-side">
             <div className="qoute-nav ps-4">
-              <a href="#" className="search-icon me-3">
-                <i className="bi bi-search"></i>
-              </a>
-              <Link to="/page-contact-5" className="btn sm-butn border text-white radius-9 hover-darkBlue">
+              
+              <Link to="/request-a-quote" className="btn sm-butn border text-white radius-9 hover-darkBlue">
                 <span>Free Quote</span>
               </Link>
             </div>

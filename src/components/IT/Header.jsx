@@ -24,7 +24,7 @@ const Header = () => {
               <h4>
                 We offer a variety of solutions for vaccines, plasma,<br /> and blood storage. And equipment manufactured <br />to reach low and ultra-low temperatures. 
               </h4>
-              <Link to="/page-about-5" className="btn sm-butn border text-white radius-9 mt-30 hover-darkBlue">
+              <Link to="/request-a-quote" className="btn sm-butn border text-white radius-9 mt-30 hover-darkBlue">
                 <span>Request a Quote</span>
               </Link>
             </div>

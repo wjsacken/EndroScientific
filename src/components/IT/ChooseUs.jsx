@@ -34,7 +34,7 @@ const ChooseUs = () => {
                   ))
                 }
               </ul>
-              <Link to="/page-contact-5" className="btn sm-butn border text-DB radius-9 mt-70 hover-darkBlue chooseBtn">
+              <Link to="/request-a-quote" className="btn sm-butn border text-DB radius-9 mt-70 hover-darkBlue chooseBtn">
                 <span>Request A Quote</span>
               </Link>
             </div>
