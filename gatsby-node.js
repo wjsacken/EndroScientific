@@ -19,6 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
             node {
               id
               title
+              handle
             }
           }
         }
@@ -40,7 +41,7 @@ productResult.data.allShopifyProduct.edges.forEach(({ node }) => {
 
 
   productResult.data.allShopifyCollection.edges.forEach(({ node }) => {
-    const pathTitle = node.title.replace(/\s+/g, '_'); // Replaces spaces with underscores
+    const pathTitle = node.handle.replace(/\s+/g, '_'); // Replaces spaces with underscores
 
     createPage({
       path: `/category/${pathTitle}`,
