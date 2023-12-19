@@ -67,6 +67,21 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li className="nav-item dropdown" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
+              <a className="nav-link dropdown-toggle" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Policies
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <li><Link to="/privacy-policy/" className="dropdown-item">Privacy Policy</Link></li>
+                <li><Link to="/receipt-of-goods/" className="dropdown-item"> Receipt of Goods</Link></li>
+                <li><Link to="/refund-policy/" className="dropdown-item"> Refund Policy</Link></li>
+                <li><Link to="/return-policy/" className="dropdown-item"> Return Policy</Link></li>
+                <li><Link to="/shipping-policy/" className="dropdown-item"> Shipping Policy</Link></li>
+                <li><Link to="/terms-of-service/" className="dropdown-item"> Terms of Service</Link></li>
+                <li><Link to="/freight-damage/" className="dropdown-item"> Freight Damage</Link></li>
+                <li><Link to="/warranty/" className="dropdown-item"> Warranty</Link></li>
+              </ul>
+            </li>
           </ul>
           <div className="nav-side">
             <div className="qoute-nav ps-4">

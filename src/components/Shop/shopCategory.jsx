@@ -16,9 +16,7 @@ const Product = ({ rtl }) => {
               altText
             }
             description
-            variants {
-              price
-            }
+
           }
         }
       }

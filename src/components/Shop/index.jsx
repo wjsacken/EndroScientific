@@ -22,9 +22,7 @@ const Shop = ({ style = "4", rtl }) => {
               altText
             }
             description
-            variants {
-              price
-            }
+
           }
         }
       }

@@ -5,7 +5,7 @@ import navbarScrollEffect from "common/navbarScrollEffect";
 import MainLayout from 'layouts/Main';
 //= Components
 import Navbar from 'components/Navbars/ITNav';
-import About from 'components/Style2/About/About';
+import About from 'components/Style2/About/Receipt';
 import Footer from 'components/IT/Footer';
 
 const PageAbout2 = () => {
@@ -29,7 +29,7 @@ const PageAbout2 = () => {
 export const Head = () => {
   return (
     <>
-      <title>Shipping Policy - EndroSci</title>
+      <title>Receipt of Goods - EndroSci</title>
       <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css" />
       <link rel="stylesheet" href="/assets/css/style.css" />
     </>

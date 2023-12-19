@@ -16,9 +16,7 @@ const Product = ({ rtl }) => {
               altText
             }
             description
-            variants {
-              price
-            }
+
           }
         }
       }
@@ -40,9 +38,7 @@ const Product = ({ rtl }) => {
                 <Link to={`/product/${product.handle}`}>{ product.title }</Link>
               </h5>
             </div>
-            <div className="price">
-              <span className="price-sale">${ product.variants[0].price }</span>
-            </div>
+            
           </div>
         </div>
       ))}

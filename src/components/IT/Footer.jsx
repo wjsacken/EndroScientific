@@ -15,15 +15,27 @@ const Footer = () => {
               
             </div>
           </div>
-          <div className="col-lg-6 text-end">
+          <div className="col-lg-6">
             <div className="socail-icons">
-            <div className="small">
+              <ul className="col-lg-6 float-start">
+                <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="/receipt-of-goods/">Receipt of Goods</a></li>
+                <li><a href="/refund-policy/">Refund Policy</a></li>
+                <li><a href="/return-policy/">Return Policy</a></li>
+              </ul>
+              <ul className="col-lg-6 float-end">
+                <li><a href="/shipping-policy/">Shipping Policy</a></li>
+                <li><a href="/terms-of-service/">Terms of Service</a></li>
+                <li><a href="/freight-damage/">Freight Damage</a></li>
+                <li><a href="/warranty/">Warranty</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="small">
               <span className="op-6">© 2023 Copyrights by </span>
               <a href="#" className="mx-1">Endro Scientific</a>
               <span className="op-6"> All Rights Reserved.</span>
             </div>
-            </div>
-          </div>
         </div>
       </div>
     </footer>
