@@ -12,7 +12,7 @@ const Terms = () => {
               </div>
               <div className="col-lg-12">
                 <strong>OVERVIEW</strong> <br/> 
-                <p>This website is operated by K2 Scientific. Throughout the site, the terms “we”, “us” and “our” refer to K2 Scientific. K2 Scientific offers this website, including all information, tools and Services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here. </p>
+                <p>This website is operated by Endro Scientific. Throughout the site, the terms “we”, “us” and “our” refer to Endro Scientific. Endro Scientific offers this website, including all information, tools and Services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here. </p>
                 <br/> <br/> 
                 By visiting our site and/ or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply to all users of the site, 
                 including without limitation users who are browsers, vendors, customers, merchants, and/ or contributors of content. 
@@ -57,7 +57,7 @@ const Terms = () => {
                  <br/> <br/> 
                  <strong>SECTION 5 - PRODUCTS OR SERVICES (if applicable)</strong> 
                  <br/> 
-                 Certain products or Services may be available exclusively online through the website. These products or Services may have limited quantities and are subject to return or exchange only according to our Refund Policy: [LINK TO REFUND POLICY] 
+                 Certain products or Services may be available exclusively online through the website. These products or Services may have limited quantities and are subject to return or exchange only according to our Refund Policy: <a href="/refund-policy/">Click Here</a>
                  <br/> 
                  We have made every effort to display as accurately as possible the colors and images of our products that appear at the store. We cannot guarantee that your computer monitor's display of any color will be accurate. 
                  <br/> 
@@ -70,7 +70,7 @@ const Terms = () => {
                  <br/> <br/> 
                  You agree to provide current, complete and accurate purchase and account information for all purchases made at our store. You agree to promptly update your account and other information, including your email address and credit card numbers and expiration dates, so that we can complete your transactions and contact you as needed. 
                  <br/> <br/> 
-                 For more details, please review our Refund Policy: [LINK TO REFUND POLICY] 
+                 For more details, please review our <a href="/refund-policy/">Refund Policy</a>
                  <br/> <br/> 
                  <strong>SECTION 7 - OPTIONAL TOOLS</strong> 
                  <br/> We may provide you with access to third-party tools over which we neither monitor nor have any control nor input. 
@@ -99,7 +99,7 @@ const Terms = () => {
                  <br/> <br/> 
                  <strong>SECTION 10 - PERSONAL INFORMATION</strong> 
                  <br/> 
-                 Your submission of personal information through the store is governed by our Privacy Policy, which can be viewed here: [LINK TO PRIVACY POLICY] 
+                 Your submission of personal information through the store is governed by our Privacy Policy, which can be viewed here: <a href="/privacy-policy/">Click Here</a> 
                  <br/> <br/> 
                  <strong>SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS</strong> 
                  <br/> 
@@ -116,10 +116,10 @@ const Terms = () => {
                  We do not warrant that the results that may be obtained from the use of the Service will be accurate or reliable. <br/> 
                  You agree that from time to time we may remove the Service for indefinite periods of time or cancel the Service at any time, without notice to you. <br/> 
                  You expressly agree that your use of, or inability to use, the Service is at your sole risk. The Service and all products and Services delivered to you through the Service are (except as expressly stated by us) provided 'as is' and 'as available' for your use, without any representation, warranties or conditions of any kind, either express or implied, including all implied warranties or conditions of merchantability, merchantable quality, fitness for a particular purpose, durability, title, and non-infringement. <br/> 
-                 In no case shall K2 Scientific, our directors, officers, employees, affiliates, agents, contractors, interns, suppliers, Service providers or licensors be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind, including, without limitation lost profits, lost revenue, lost savings, loss of data, replacement costs, or any similar damages, whether based in contract, tort (including negligence), strict liability or otherwise, arising from your use of any of the Service or any products procured using the Service, or for any other claim related in any way to your use of the Service or any product, including, but not limited to, any errors or omissions in any content, or any loss or damage of any kind incurred as a result of the use of the Service or any content (or product) posted, transmitted, or otherwise made available via the Service, even if advised of their possibility. Because some states or jurisdictions do not allow the exclusion or the limitation of liability for consequential or incidental damages, in such states or jurisdictions, our liability shall be limited to the maximum extent permitted by law. 
+                 In no case shall Endro Scientific, our directors, officers, employees, affiliates, agents, contractors, interns, suppliers, Service providers or licensors be liable for any injury, loss, claim, or any direct, indirect, incidental, punitive, special, or consequential damages of any kind, including, without limitation lost profits, lost revenue, lost savings, loss of data, replacement costs, or any similar damages, whether based in contract, tort (including negligence), strict liability or otherwise, arising from your use of any of the Service or any products procured using the Service, or for any other claim related in any way to your use of the Service or any product, including, but not limited to, any errors or omissions in any content, or any loss or damage of any kind incurred as a result of the use of the Service or any content (or product) posted, transmitted, or otherwise made available via the Service, even if advised of their possibility. Because some states or jurisdictions do not allow the exclusion or the limitation of liability for consequential or incidental damages, in such states or jurisdictions, our liability shall be limited to the maximum extent permitted by law. 
                  <br/> <br/> 
                  <strong>SECTION 14 - INDEMNIFICATION</strong> <br/> 
-                 You agree to indemnify, defend and hold harmless K2 Scientific and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, Service providers, subcontractors, suppliers, interns and employees, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party. 
+                 You agree to indemnify, defend and hold harmless Endro Scientific and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, Service providers, subcontractors, suppliers, interns and employees, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party. 
                  <br/> <br/> 
                  <strong>SECTION 15 - SEVERABILITY</strong> <br/> 
                  In the event that any provision of these Terms of Service is determined to be unlawful, void or unenforceable, such provision shall nonetheless be enforceable to the fullest extent permitted by applicable law, and the unenforceable portion shall be deemed to be severed from these Terms of Service, such determination shall not affect the validity and enforceability of any other remaining provisions. 
@@ -141,7 +141,7 @@ const Terms = () => {
                  We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes. Your continued use of or access to our website or the Service following the posting of any changes to these Terms of Service constitutes acceptance of those changes. 
                  <br/> <br/> 
                  <strong>SECTION 20 - CONTACT INFORMATION</strong> 
-                 <br/> Questions about the Terms of Service should be sent to us at ty.baugh@k2sci.com. <br/> 
+                 <br/> Questions about the Terms of Service should be sent to us at brannon@endrosci.com. <br/> 
               </div>
             </div>
           </div>

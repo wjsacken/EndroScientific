@@ -118,7 +118,7 @@ const Privacy = () => {
                 <h4>CONTACTING US</h4>
                 <p>If you have any questions regarding this privacy policy, please get in touch with us using the information below.</p>
                 <p><a href="mailto:brannon@endrosci.com">brannon@endrosci.com</a></p>
-                <p><a href="tel:8002187613">1 (800) 218-7613</a></p>
+                <p><a href="tel:7047971469">(704) 797 1469</a></p>
               </div>
             </div>
           </div>
