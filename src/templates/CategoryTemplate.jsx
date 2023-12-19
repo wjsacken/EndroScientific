@@ -72,11 +72,7 @@ const CategoryTemplate = ({ data }) => {
                                         <Link to={`/product/${item.handle}`}>{ item.title }</Link>
                                       </h5>
                                     </div>
-                                    <div className="price">
-                                      <span className="price-sale">
-                                        ${item.priceRangeV2.maxVariantPrice.amount.toLocaleString()}
-                                      </span>
-                                    </div>
+                                    
                                   </div>
                                 </div>
                               ))

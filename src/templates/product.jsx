@@ -116,9 +116,7 @@ const PageProductApp = ({ data }) => {
                 <div className="col-lg-6">
                   <div className="product-info">
                     <h5 className="title">{mainInfo.title}</h5>
-                    <div className="price">
-                      ${mainInfo.price.toLocaleString()}
-                    </div>
+                    
                     <div className="info-text">
                       {mainInfo.description.replace(/K2|K2 Scientific/g, 'Endro')}
                     </div>
