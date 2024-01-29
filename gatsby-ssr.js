@@ -9,7 +9,7 @@ const HeadComponents = [
   <meta key="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />,
   <meta key="keywords" name="keywords" content="React Gatsby Template Iteck Multi-Purpose themeforest" />,
   <meta key="description" name="description" content="Iteck - Multi-Purpose React.js Gatsby Template" />,
-  <meta key="author" name="author" content="" />,
+  <meta key="author" name="author" content="Arts Cube" />,
   <link key="styles-bs-icons" rel="stylesheet" href="/assets/css/lib/bootstrap-icons.css" />,
   <link key="styles-fa" rel="stylesheet" href="/assets/css/lib/all.min.css" />,
   <link key="styles-animate" rel="stylesheet" href="/assets/css/lib/animate.css" />,

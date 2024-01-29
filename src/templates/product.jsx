@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { graphql } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import navbarScrollEffect from "common/navbarScrollEffect";
 import MainLayout from 'layouts/Main';
 import Navbar from 'components/Navbars/ITNav';
@@ -13,6 +12,16 @@ import 'swiper/css/free-mode';
 import 'swiper/css/thumbs';
 
 SwiperCore.use([FreeMode, Thumbs]);
+
+const Head = ({ productName }) => {
+  return (
+    <>
+      <title>{productName} - EndroSci</title>
+      <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css" />
+      <link rel="stylesheet" href="/assets/css/style.css" />
+    </>
+  );
+};
 
 const PageProductApp = ({ data }) => {
   const product = data.shopifyProduct;
@@ -43,8 +52,9 @@ const PageProductApp = ({ data }) => {
   const [galleryThumbs, setGalleryThumbs] = useState(null);
 
   return (
+
     <MainLayout>
-      <Head title={productName} />
+      <Head productName={productName} />
       <Navbar navbarRef={navbarRef} />
       <main className="product-page style-5">
         <section className="product pt-50">
@@ -172,49 +182,39 @@ const PageProductApp = ({ data }) => {
       </main>
       <Footer noWave />
     </MainLayout>
-    );
-  };
-  
-  export default PageProductApp;
-  
-  export const query = graphql`
-    query($title: String!) {
-      shopifyProduct(title: { eq: $title }) {
-        title
-        id
-        media {
-          alt
-          preview {
-            image {
-              src
-              gatsbyImageData
-            }
+  );
+};
+
+export default PageProductApp;
+
+export const query = graphql`
+  query($title: String!) {
+    shopifyProduct(title: { eq: $title }) {
+      title
+      id
+      media {
+        alt
+        preview {
+          image {
+            src
+            gatsbyImageData
           }
         }
-        productType
-        description
-        priceRangeV2 {
-          maxVariantPrice {
-            amount
-          }
-        }
-        variants {
-          sku
-        }
-        metafield(namespace: "product", key: "specifications") {
-          value
-        }
-        tags
       }
+      productType
+      description
+      priceRangeV2 {
+        maxVariantPrice {
+          amount
+        }
+      }
+      variants {
+        sku
+      }
+      metafield(namespace: "product", key: "specifications") {
+        value
+      }
+      tags
     }
-  `;
-  
-  const Head = ({ productName }) => {
-    return (
-      <>
-        <title>{productName} - EndroSci</title>
-        <link rel="stylesheet" href="/assets/css/lib/bootstrap.min.css" />
-        <link rel="stylesheet" href="/assets/css/style.css" />
-      </>
-    );
-  };
+  }
+`;
