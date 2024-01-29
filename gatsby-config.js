@@ -4,9 +4,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Iteck',
-    description: 'Iteck - Multi-Purpose React.js Gatsby Template',
-    author: 'ThemesCamp'
+    title: 'EndroScientific',
+    description: 'Medical Refrigeration for local, state, and Federal entities.',
+    author: 'EndroScientific',
+    siteUrl: "https://endrosci.com"
   },
 
   plugins: [
@@ -22,6 +23,7 @@ module.exports = {
         shopifyConnections: [`collections`]
       },
     },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`
   ],
   trailingSlash: `always`
