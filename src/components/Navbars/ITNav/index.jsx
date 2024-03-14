@@ -83,7 +83,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <Link to="https://drive.google.com/file/d/1VuvYz3OiyJncUd3adNIR8S8vj-iv4tBJ/view?usp=drive_link" className="nav-link">
+              <Link to="https://drive.google.com/file/d/1VuvYz3OiyJncUd3adNIR8S8vj-iv4tBJ/view?usp=drive_link" className="nav-link" target="_blank">
                 Capability Statement
               </Link>
             </li>
