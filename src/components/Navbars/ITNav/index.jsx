@@ -82,6 +82,11 @@ const Navbar = () => {
                 <li><Link to="/warranty/" className="dropdown-item"> Warranty</Link></li>
               </ul>
             </li>
+            <li className="nav-item">
+              <Link to="https://drive.google.com/file/d/1VuvYz3OiyJncUd3adNIR8S8vj-iv4tBJ/view?usp=drive_link" className="nav-link">
+                Capability Statement
+              </Link>
+            </li>
           </ul>
           <div className="nav-side">
             <div className="qoute-nav ps-4">
