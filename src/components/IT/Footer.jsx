@@ -18,8 +18,8 @@ const Footer = () => {
           <div className="col-lg-6">
             <div className="socail-icons">
               <ul className="col-lg-6 float-start">
-                <li><a href="https://drive.google.com/file/d/1VuvYz3OiyJncUd3adNIR8S8vj-iv4tBJ/view?usp=drive_link">Privacy Policy</a></li>
-                <li><a href="/privacy-policy/" target="_blank">Capability Statement</a></li>
+                <li><a href="https://drive.google.com/file/d/1VuvYz3OiyJncUd3adNIR8S8vj-iv4tBJ/view?usp=drive_link" target="_blank">Capability Statement</a></li>
+                <li><a href="/privacy-policy/">Privacy Policy</a></li>
                 <li><a href="/receipt-of-goods/">Receipt of Goods</a></li>
                 <li><a href="/refund-policy/">Refund Policy</a></li>
                 <li><a href="/return-policy/">Return Policy</a></li>
